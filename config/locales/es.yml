@@ -1,0 +1,17 @@
+es:
+  spree:
+    master: Master
+    prices: Precios
+    currencies: Monedas
+    supported_currencies:
+      short: Monedas soportadas
+      long: Una lista de monedas soportadas separadas por coma
+    allow_currency_change:
+      short: Permitir cambio de moneda
+      long: Permitir a los usuarios cambiar su moneda a traves de un selector.
+    show_currency_selector:
+      short: Mostrar selector de moneda
+      long_html: Mostrar selector de moneda en el menú principal. Este se mostrará solo si hay multiples monedas soportadas, y la opción <strong>Permitir cambio de moneda</strong> está activada.
+    variant_prices_search_placeholder: Buscar por SKU o nombre de variante...
+    notice_messages:
+      prices_saved: Precios guardados exitosamente
